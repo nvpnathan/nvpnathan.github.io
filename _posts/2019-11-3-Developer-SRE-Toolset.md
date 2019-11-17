@@ -2,7 +2,7 @@
 
 layout: single
 title: What's in my cli tool belt?   
-
+tags: tools cli mac 
 ---
 
 Everyone has built a new laptop from scracth before and it's always a struggle to make it "yours" again. I'll walk through what I install to make it "usable" for my day-to-day job. I work a lot with Kubernetes, Docker, and VMware technologies. So my toolset focuses a lot on making my terminal more user friendly and the cli tools/plugins to make that experience faster and  more efficient.

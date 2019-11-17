@@ -198,7 +198,7 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
+#permalink: /:categories/:title/
 
 # Markdown Processing
 kramdown:
@@ -224,10 +224,38 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Plugin: Pagination (jekyll-paginate-v2)
+# pagination:
+#   enabled: true
+#   debug: false
+#   per_page: 15
+#   permalink: "/page/:num/"
+#   title: ":title"
+#   limit: 0
+#   sort_field: "date"
+#   sort_reverse: true
+
+# Plugin: Auto Pages (jekyll-paginate-v2)
+# autopages:
+#   enabled: true
+#   categories:
+#     enabled: false
+#   collections:
+#     enabled: false
+#   tags:
+#     enabled: true
+#     slugify:
+#       mode: raw
+#       cased: true
+#     layouts:
+#       - "autopage_tags.html"
+#     title: ":tag" # :tag is replaced by the tag name
+#     permalink: "/tag/:tag"
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
+  #- jekyll-paginate-v2
   - jemoji
   - jekyll-sitemap
   - jekyll-gist
@@ -238,6 +266,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
+  #- jekyll-paginate-v2
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -261,17 +290,17 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+# # https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
