@@ -2,7 +2,9 @@
 
 layout: single
 title: BOM and configuration of ESXi hosts 
-
+pagination: 
+  enabled: true
+  tag: homelab, vsphere, esxi
 ---
 
 In this post I will discuss the BOM and installation process of a new vSphere cluster for my homelab.

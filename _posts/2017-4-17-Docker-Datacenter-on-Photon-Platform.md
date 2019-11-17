@@ -1,8 +1,7 @@
 ---
-
 layout: single
 title: Using Terraform to deploy Docker Datacenter on Photon Platform 
-
+tags: docker photon
 ---
 
 In this post I will discuss how a developer or infrastructure

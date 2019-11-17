@@ -2,10 +2,10 @@
 
 layout: single
 title: What's in my cli tool belt?   
-tags: tools cli mac 
+tags: tools cli mac kubernetes k8s
 ---
 
-Everyone has built a new laptop from scracth before and it's always a struggle to make it "yours" again. I'll walk through what I install to make it "usable" for my day-to-day job. I work a lot with Kubernetes, Docker, and VMware technologies. So my toolset focuses a lot on making my terminal more user friendly and the cli tools/plugins to make that experience faster and  more efficient.
+Everyone has built a new laptop from scratch before and it's always a struggle to make it "yours" again. I'll walk through what I install to make it "usable" for my day-to-day job. I work a lot with Kubernetes, Docker, and VMware technologies. So my toolset focuses a lot on making my terminal more user friendly and the cli tools/plugins to make that experience faster and  more efficient.
 
 Step one, install Brew! Owning a Mac I can't emphasize this enough. It's like `pip` but it actually works! I try to install everything with brew because of ease of install/upgrade/re-install/automation.
 
@@ -14,7 +14,7 @@ Step one, install Brew! Owning a Mac I can't emphasize this enough. It's like `p
 ---
 ### General
 
-I left this part up to you(except Brew). Brave as a browser has started to grow on me and I've used Tunnelblick for my VPN client for many years.
+I left this part up to you(except Brew :grin:). Brave as a browser has started to grow on me and I've used Tunnelblick for my VPN client for many years.
 
 - [Brew](https://brew.sh/)
 - [Tunnelblick](https://tunnelblick.net/)
