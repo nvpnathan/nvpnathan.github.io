@@ -69,6 +69,9 @@ Kind (Kubernetes in Docker) was introduced to me by @mauilion (Duffie Cooley). A
 
 ---
 ### Developer Tools
+
+In the dev tools, `git` is a tool that I can't live without. It allows you to clone repo's, track changes, commit code, push to remote repo's, and much more. After you have your terminal setup with Git integration it becomes second nature to use for the basics. VS Code is my preferred editor because of all the plugins and native Git integration.
+
 - Git `brew install git`
 - [VS Code](https://code.visualstudio.com/download)
 	- Plugins
@@ -87,6 +90,9 @@ Kind (Kubernetes in Docker) was introduced to me by @mauilion (Duffie Cooley). A
 
 ---
 ### Infrastructure Tools
+
+Huge fan of Terraform and I've been using it for years for different use cases. The [vSphere](https://github.com/terraform-providers/terraform-provider-vsphere) and [NSX provider](https://github.com/terraform-providers/terraform-provider-nsxt) have matured over time and continue to do so. The ability to document how your infrastructure is deployed with `.tf` files provides a reference of how it was deployed and also can be tracked in version control.
+
 - [Govc](https://github.com/vmware/govmomi/tree/master/govc) - `brew install govmomi/tap/govc`
 - [Terraform](https://www.terraform.io/) - `brew install terraform`
 - [Packer](https://www.packer.io/) - `brew install packer`
