@@ -13,7 +13,7 @@ Step one, install Brew! Owning a Mac I can't emphasize this enough. It's like `p
 ---
 ### General
 
-I left this part up to you(except Brew :grin:). Brave as a browser has started to grow on me and I've used Tunnelblick for my VPN client for many years.
+I left this part up to you(except `brew` :grin:). Brave as a browser has started to grow on me and I've used Tunnelblick for my VPN client for many years.
 
 - [Brew](https://brew.sh/)
 - [Tunnelblick](https://tunnelblick.net/)
@@ -29,6 +29,12 @@ The combinations here are endless, between getting the correct theme, font, and 
 - [Fonts](https://github.com/romkatv/powerlevel10k#fonts)
 - [Powerline10k](https://github.com/romkatv/powerlevel10k)
 - VIM - `brew install vim`
+
+Before:
+![Before](/images/2019-11-3/terminal-before.png)
+
+After:
+![After](/images/2019-11-3/terminal-after.png)
 
 ---
 ### Container Tools
