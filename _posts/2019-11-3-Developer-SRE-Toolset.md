@@ -1,5 +1,4 @@
 ---
-
 layout: single
 title: What's in my cli tool belt?   
 tags: tools cli mac kubernetes k8s
