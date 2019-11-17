@@ -1,6 +1,6 @@
 ---
 
-layout: post
+layout: single
 title: Using Terraform to deploy Docker Datacenter on Photon Platform 
 
 ---

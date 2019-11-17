@@ -1,6 +1,6 @@
 ---
 
-layout: post
+layout: single
 title: What's in my cli tool belt?   
 
 ---

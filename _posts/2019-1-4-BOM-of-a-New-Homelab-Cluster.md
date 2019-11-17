@@ -1,6 +1,6 @@
 ---
 
-layout: post
+layout: single
 title: BOM and configuration of ESXi hosts 
 
 ---
