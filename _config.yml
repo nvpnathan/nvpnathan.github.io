@@ -227,11 +227,14 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
+  - jemoji
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
 
 # mimic GitHub Pages with --safe
 whitelist:
