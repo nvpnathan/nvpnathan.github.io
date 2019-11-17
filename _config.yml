@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Nathan Ness"
   avatar           : "/images/avatar.jpeg"
-  bio              : "Wannabe Homelab SRE @ VMware"
+  bio              : "Dabbler in Kubernetes, Automation, Infra. as Code, and SDN."
   location         : "Colorado"
   email            : "nathan79@gmail.com"
   links:
