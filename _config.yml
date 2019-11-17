@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Wannabe Homelab SRE @ VMware"
+title                    : "nvpnathan"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Nathan Ness"
@@ -84,7 +84,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : nvpnathan
+  username               : "nvpnathan"
 facebook:
   username               :
   app_id                 :
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Nathan Ness"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Wannabe Homelab SRE @ VMware"
   location         : "Colorado"
   email            : "nathan79@gmail.com"
   links:
