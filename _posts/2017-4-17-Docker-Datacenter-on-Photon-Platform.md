@@ -18,7 +18,7 @@ workers (worker.tf) and automatically adds them to the Swarm Cluster. Photon Pla
 used for multi-tenancy and control how much infrastructure you are able
 to deploy.
 
-![Terraform Directory](/downloads/terraform-directory.png)
+![Terraform Directory](/images/2017-4-17/terraform-directory.png)
 
 Let's take a look at the manager.tf. The purpose of this file is to
 deploy a VM and install docker ucp on top of it. For that we use the
@@ -143,35 +143,35 @@ output "worker_vm_ip" {
 {% endhighlight %}
 
 Now that we have the configuration files for the manager and workers, let's deploy it. In our terminal we issue `terraform apply` and it will ask for the number of worker nodes you want to deploy. On the right you can see Photon Platform and the available infrastructure resources you have assigned to your project. 
-![Terraform Directory](/downloads/terraform-photon-start.png)
+![Terraform Directory](/images/2017-4-17/terraform-photon-start.png)
 
 After you execute `terraform apply` it will start deploying the
 infrastructure described in the configuration files. The first thing it
 deploys is the Docker Datacenter Manager so that workers can join the
 cluster.
-![Terraform Directory](/downloads/photon-manager.png)
+![Terraform Directory](/images/2017-4-17/photon-manager.png)
 
 After the manager is deployed, it will spin up the number of workers you
 specified for the "COUNT" variable. 
-![Terraform Directory](/downloads/photon-complete.png)
+![Terraform Directory](/images/2017-4-17/photon-complete.png)
 
 The last part of a terraform template is the "outputs". I want to know
 the endpoint for my Docker Datacenter VM so I have defined that as an
 output. Terraform also tells you what it added/changed/removed whenever
 you issue a `terraform plan` or `terraform apply`.
-![Terraform Directory](/downloads/terraform-complete.png)
+![Terraform Directory](/images/2017-4-17/terraform-complete.png)
 
 Success! We have Docker Datacenter up and running with 5 worker nodes.
 Now you can start deploying your contanerized workloads with the Docker
 API.
-![Terraform Directory](/downloads/ddc-ui.png)
+![Terraform Directory](/images/2017-4-17/ddc-ui.png)
 
 Now let's say we need to scale up the number of worker nodes. Simply run
 `terraform apply` and specify the new number of worker nodes you want.
 Terraform will examine the current state of the infrastructure and
 deploy 5 more VM's on top of Photon Platform and add them into the Swarm
 cluster.
-![Terraform Directory](/downloads/scaleout-10-nodes-cli.png)
+![Terraform Directory](/images/2017-4-17/scaleout-10-nodes-cli.png)
 
 This is a simple example of how you can use "Infrastructure as Code"
 with Terraform and Photon Platform. You can store your configuration
