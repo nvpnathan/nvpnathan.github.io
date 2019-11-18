@@ -9,6 +9,7 @@ Everyone has built a new laptop from scratch before and it's always a struggle t
 Step one, install Brew! Owning a Mac I can't emphasize this enough. It's like `pip` but it actually works! I try to install everything with brew because of ease of install/upgrade/re-install/automation.
 
 **NOTE:** Please use the tools below at your own risk.
+{: .notice--warning}
 
 ---
 ### General
@@ -55,7 +56,7 @@ Kind (Kubernetes in Docker) was introduced to me by @mauilion (Duffie Cooley). A
 - [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) - `brew install Kubernetes-cli`
 - [Krew](https://github.com/kubernetes-sigs/krew)
 	- [Plugins](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md)
-		- View-secrets - `kubectl krew install view-secrets`
+		- View-secrets - `kubectl krew install view-secret`
 		- Konfig - `kubectl krew install konfig`
 		- Access-matrix - `kubectl krew install access-matrix`
 - [Kubectx/Kubens](https://github.com/ahmetb/kubectx) - `brew install kubectx`
