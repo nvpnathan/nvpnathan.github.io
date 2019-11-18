@@ -81,6 +81,7 @@ In the dev tools, `git` is a tool that I can't live without. It allows you to cl
 		- Python
 		- Terraform
 		- Markdown auto-preview
+- [Postman](https://www.getpostman.com/downloads/)
 - Go `brew install go`
 - Python3 `brew install python3`
 - [Skaffold](https://github.com/GoogleContainerTools/skaffold) - `brew install skaffold`
