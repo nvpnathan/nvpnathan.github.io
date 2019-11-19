@@ -89,6 +89,7 @@ In the dev tools, `git` is a tool that I can't live without. It allows you to cl
 - [Jx](https://jenkins-x.io/docs/getting-started/setup/install/) - `brew tap jenkins-x/jx && brew install jx`
 - wget - `brew install wget`
 - watch - `brew install watch`
+- vault - `brew install vault`
 
 ---
 ### Infrastructure Tools
