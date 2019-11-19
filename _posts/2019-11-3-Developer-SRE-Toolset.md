@@ -87,6 +87,7 @@ In the dev tools, `git` is a tool that I can't live without. It allows you to cl
 - [Skaffold](https://github.com/GoogleContainerTools/skaffold) - `brew install skaffold`
 - [Fly](https://github.com/concourse/concourse)
 - [Jx](https://jenkins-x.io/docs/getting-started/setup/install/) - `brew tap jenkins-x/jx && brew install jx`
+- jq - `brew install jq`
 - wget - `brew install wget`
 - watch - `brew install watch`
 - vault - `brew install vault`
