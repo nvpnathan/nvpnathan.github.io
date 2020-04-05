@@ -29,6 +29,9 @@ The combinations here are endless, between getting the correct theme, font, and 
 - [Oh my zsh](https://ohmyz.sh/)
 - [Fonts](https://github.com/romkatv/powerlevel10k#fonts)
 - [Powerline10k](https://github.com/romkatv/powerlevel10k)
+- [HTTPie](https://httpie.org/)
+- [Colorls](https://github.com/athityakumar/colorls)
+- [Bat](https://github.com/sharkdp/bat)
 - VIM - `brew install vim`
 
 Before:
@@ -60,6 +63,7 @@ Kind (Kubernetes in Docker) was introduced to me by @mauilion (Duffie Cooley). A
 		- Konfig - `kubectl krew install konfig`
 		- Access-matrix - `kubectl krew install access-matrix`
 - [Kubectx/Kubens](https://github.com/ahmetb/kubectx) - `brew install kubectx`
+- [Kustomize](https://github.com/kubernetes-sigs/kustomize) - `brew install kustomize`
 - [Kind](https://github.com/kubernetes-sigs/kind)
 - [Clusterctl](https://github.com/kubernetes-sigs/cluster-api/tree/master/cmd/clusterctl)
 - [Velero](https://github.com/vmware-tanzu/velero)
