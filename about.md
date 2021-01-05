@@ -6,8 +6,7 @@ permalink: /about/
 ---
 
 Allow myself to introduce....myself.
-I'm currently a Sr. Staff Kubernetes SE in the Cloud Native Applications Business Unit at VMware. I focus on all things Cloud Native at VMware with an emphasis on Kubernetes. I joined VMware 8 years as a Technical Account Manager and support various customers in the realm of Cloud and End User Computing. After about a year in a half VMware acquired Nicira and I joined the Networking and Security Business Unit and supported VMware NSX as a Pre-sales SE.
-
+Technology has always been a passion of mine. I'll lead with dating myself when I started working for Gateway Computers in Highschool (Who remembers the Cows?). I'm currently a Sr. Solutions Architect at AWS. Prior to AWS, I spent the last nine years at VMware in various Pre-Sales System Engineer roles. For the last 3.5 years I was in the VMware Modern Applications Business Unit helping customers with all things Cloud Native, with a big focus on Kubernetes and the VMware Tanzu Portfolio. Priot to that I spent 5 years in VMware's Networking and Security Business Unit after the acquisition of Nicira, which ultimately became VMware NSX (SDN). 
 
 ### The Blog
 

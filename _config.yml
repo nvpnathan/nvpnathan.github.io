@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 locale                   : "en-US"
 title                    : "nvpnathan"
 title_separator          : "-"
-subtitle                 : "Wannabe Homelab SRE @ VMware" # site tagline that appears below site title in masthead
+subtitle                 : "Wannabe Cloud SRE @ AWS" # site tagline that appears below site title in masthead
 name                     : "Nathan Ness"
 description              : #
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Nathan Ness"
   avatar           : "/images/avatar.jpeg"
-  bio              : "Dabbler in Kubernetes, Automation, Infra. as Code, and SDN."
+  bio              : "Dabbler in Kubernetes, Cloud, Automation, Infra. as Code, and SDN."
   location         : "Colorado"
   email            : "nathan79@gmail.com"
   links:
